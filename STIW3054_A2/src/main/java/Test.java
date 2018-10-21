@@ -9,7 +9,7 @@ public class Test {
         ConvertPDF convertPDF = new ConvertPDF();
 
         excel.readExcel();
-        //excel.printArrayList();
+        excel.printArrayList();
         convertPDF.exportPDF(excel.getTextArrayList1(), excel.getTextArrayList2(), excel.getChessArrayList());
     }
 }
